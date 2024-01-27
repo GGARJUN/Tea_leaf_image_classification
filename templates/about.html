@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../Static/css/about.css">
+    <link href="{{ url_for('static', filename='css/about.css') }}" rel="stylesheet">
+</head>
+<body>
+        <nav>
+            <div class="logo"><span>TEA LEAVES</span> DISEASE DETECTION</div>
+            <div class="right_nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                </ul>
+            </div>
+        </nav>
+       <div class="baby">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-img">
+                    <img src="../static/image/about1.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p class="text">
+                        Tea leaf, also known as Camellia sinensis, is the primary plant used in the production of tea. The leaves of the tea plant are harvested and processed to create various types of tea, including green tea, black tea, oolong tea, and white tea. Tea leaves contain compounds such as catechins, flavonoids, and caffeine, which contribute to the taste, aroma, and potential health benefits of processing techniques tea. 
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../static/image/about2.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p class="text">
+                        Tea leaves are cultivated in tea plantations and undergo different processing methods, including withering, rolling, oxidation, and drying, to achieve the desired characteristics of the final tea product. The quality and flavor of tea depend on factors such as the tea variety, growing conditions, processing techniques, and the presence of any diseases or pests that may affect the health of the tea plants. 
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../static/image/about3.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <p class="text">
+                        In the context of tea leaf disease detection, customers may be tea plantation owners, tea farmers, or tea enthusiasts who are concerned about the health and quality of their tea crops. They may be seeking methods or technologies to detect and manage diseases that can potentially impact the growth, yield, and overall quality of tea leaves. By ensuring the health of tea plants, customers aim to produce high-quality tea.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+       </div>
+
+        <div id="discribe">
+            <div class="reach-at">
+                <h3>Reach At...</h3>
+                <p><i class='bx bx-current-location'></i>Madurai</p>
+                <p><i class='bx bxs-phone-call'></i>Call : 9384902204</p>
+                <p><i class='bx bxl-gmail'></i>arjunvailuv16@gmail.com</p>
+            </div>
+            <div class="info">
+                <h3>About</h3>
+                <p>
+                    Agcultural systems are under
+                    greater pressure then ever. but 
+                    along with its other uses, the 
+                    potential of AI to provide much-
+                    needed relief to over worked 
+                    farmers can streamline the triage
+                    process...
+                </p>
+            </div>
+            <div class="link">
+                <h3>Links</h3>
+                <a href="{{ url_for('index') }}"><i class='bx bxs-home'></i>HOME</a>
+                <a href="{{ url_for('about') }}"><i class='bx bxs-store-alt'></i>ABOUT</a>
+                <a href="{{ url_for('teahome') }}"><i class='bx bxs-leaf'></i>TEA</a>
+            </div>
+        </div>
+  
+</body>
+</html>

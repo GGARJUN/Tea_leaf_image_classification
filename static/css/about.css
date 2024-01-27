@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Patua+One&family=Poppins&family=Roboto&family=Secular+One&family=Source+Serif+Pro:ital@1&display=swap');
+
+/*
+font-family: 'Patua One', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Kaushan Script', cursive
+font-family: 'Secular One', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 0px 30px 0px 30px;
+    height:60px;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo{
+    font-family: 'Kaushan Script', cursive;
+
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.logo span{
+    color:#0f5af1bf;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    font-family: 'Patua One', cursive;
+}
+ul>li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 3px;
+    background-color: aqua;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgba(0, 255, 255, 0.507);
+    transition: 0.2s;
+}
+.right_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.baby{
+    background-color: #dfe4ea;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px ;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.card{
+    position: relative;
+    background-color: #dfe4ea;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .card-img{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .card-img img{
+    width: 102%;
+    height: 102%;    
+}
+
+.card-content{
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-content .text{
+    position: relative;
+    font-size: .9em;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#discribe{
+    background-color:#a4b0be;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reach-at h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 30px;
+}
+.reach-at p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.info{
+    width: 400px;
+}
+.info h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 130px;
+}
+.info p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.link h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 130px;
+    padding-bottom: 125px;
+}
+.link a{
+    background-color: #dfe4ea;
+}
+
+.link a:hover{
+    background-color: #dfe4ea59;
+    transition: 0.2s;
+}

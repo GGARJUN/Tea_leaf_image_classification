@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Patua+One&family=Poppins&family=Roboto&family=Secular+One&family=Source+Serif+Pro:ital@1&display=swap');
+
+/*
+font-family: 'Patua One', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Kaushan Script', cursive
+font-family: 'Secular One', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Patua One', cursive;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar h1{
+    background-color: #e74c3c;
+}
+
+
+
+
+.contain{
+
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #dfe4ea;
+    
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    font-family: 'Secular One', sans-serif;
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-top: 30px;
+}
+h4{
+    font-family: 'Secular One', sans-serif;
+}
+.head{
+    padding-top: 30px;
+    background-color: #dfe4ea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abo-img{
+    background-color: #e74c3c;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ img{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.abo{
+    padding: 10px;
+    width: 550px;
+
+}
+.abo h3{
+    font-family: 'Patua One', cursive;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.abo p{
+    padding-bottom: 10px;
+}
+
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#discribe{
+    background-color:#a4b0be;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reach-at h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 30px;
+}
+.reach-at p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.info{
+    width: 400px;
+}
+.info h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 130px;
+}
+.info p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.link h3{
+    font-family: 'Patua One', cursive;
+    padding-left: 130px;
+    padding-bottom: 125px;
+}
+.link a{
+    background-color: #dfe4ea;
+}
+
+.link a:hover{
+    background-color: #dfe4ea59;
+    transition: 0.2s;
+}
+

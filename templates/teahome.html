@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Home</title>
+    <link rel="stylesheet" href="../Static/css/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="{{ url_for('static', filename='css/style1.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo"><span>TEA LEAVES</span> DISEASE DETECTION</div>
+        <div class="right_nav">
+            <ul>
+                <li><a href="{{ url_for('index') }}">HOME</a></li>
+                <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <div id="predict">
+        <h1>OUR PROJECT ON TEA LEAVES DISEASE</h1>
+        <P>
+            Tea leaves pictures can be used for the Prediction of various tea
+            leaves disease which causes huge loss in agricultural system every year.
+            The proposed system - Tea leaves image processing System helps us to the 
+            analysis of leaves and there by help us in Predicting various leaves diseases.
+            The input to the proposed system is the Tea leaves image. The leaves portion is 
+            segmented and leaves color. shape and texture features are extracted and taken 
+            together to form a feature vector and then analysis of leaves are done which is 
+            used for the diagnosis of various tea leaves diseases. This proposed system will help 
+            the farmers in the early diagnosis of diseases... 
+        </P>
+        <a href="{{ url_for('pred') }}">PREDICT</a>
+    </div>
+    <div id="discribe">
+        <div class="reach-at">
+            <h3>Reach At...</h3>
+            <p><i class='bx bx-current-location'></i>Madurai</p>
+            <p><i class='bx bxs-phone-call'></i>Call : 9384902204</p>
+            <p><i class='bx bxl-gmail'></i>arjunvailuv16@gmail.com</p>
+        </div>
+        <div class="info">
+            <h3>About</h3>
+            <p>
+                Agcultural systems are under
+                greater pressure then ever. but 
+                along with its other uses, the 
+                potential of AI to provide much-
+                needed relief to over worked 
+                farmers can streamline the triage
+                process...
+            </p>
+        </div>
+        <div class="link">
+            <h3>Links</h3>
+            <a href="{{ url_for('index') }}"><i class='bx bxs-home'></i>HOME</a>
+            <a href="{{ url_for('about') }}"><i class='bx bxs-store-alt'></i>ABOUT</a>
+            <a href="{{ url_for('teahome') }}"><i class='bx bxs-leaf'></i>TEA</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../static/css/style1.css">
+</head>
+<body>
+    <section id="home">
+        <nav>
+            <div class="logo"><span>TEA LEAVES</span> DISEASE DETECTION</div>
+            <div class="right_nav">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="{{ url_for('teahome') }}">LEAF</a></li>
+                </ul>
+            </div>
+        </nav>
+       <div class="bod">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+
+                <div class="slide first">
+                    <img src="../static/image/1.jpg" alt="">
+                   
+                </div>
+                <div class="slide">
+                    <img src="../static/image/2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../static/image/3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../static/image/4.jpg" alt="">
+                </div>
+
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+       </div>
+
+       <div id="next">
+        <div class="head">
+            <h1>MODELS EMPLOYEED FOR THE PROJECT</h1>
+            <h4>Transfer Learning Models</h4>
+        </div>
+        <div class="bottom">
+            <div class="names">
+                <div class="icon">
+                    <div class="ico"><i class='bx bxs-user'></i></div>
+                </div>
+                <h1>VGG16</h1>
+                <p>
+                    VGG-16 is a convolutional neural
+                    network that is 16 Layers deep.The
+                    pretrained network can classify 
+                    images into 1000 object categories.
+                    such as keyboard, mouse, pencil,
+                    and many animals.
+
+                </p>
+            </div>
+            <div class="names">
+                <div class="icon">
+                    <div class="ico"><i class='bx bxs-leaf'></i></div>
+                </div>
+
+                <h1>RESNET50</h1>
+                <p>
+                    ResNet50 is a convolutional neural
+                    network that is 50 Layers deep. The 
+                    pretrained network can classify 
+                    images into 1000  categories.
+                    such as keyboard, mouse, pencil,
+                    and many animals.
+                </p>
+            </div>
+            <div class="names">
+                <div class="icon">
+                    <div class="ico"><i class='bx bxl-visual-studio'></i></div>
+                </div>
+                <h1>INCEPTIONV3</h1>
+                <p>
+                    InceptionV3 is a convolutional
+                    neural network that is 48 Layers
+                    deep. pretrained network can classify 
+                    images into 1000 object categories.
+                    such as keyboard, mouse, pencil,
+                    and many animals.
+                </p>
+            </div>
+            <div class="names">
+                <div class="icon">
+                    <div class="ico"><i class='bx bxl-python'></i></div>
+                </div>
+                <h1>XCEPTION</h1>
+                <p>
+                    Xception is a convolutional neural
+                    network thet is 71 Layers deep. pretrained network can classify 
+                    images into 1000 object categories.
+                    such as keyboard, mouse, pencil,
+                    and many animals.
+                </p>
+            </div>
+        </div>
+       </div>
+    </section>
+
+
+   
+    <section id="About">
+        <div class="abo-img">
+            <img src="../static/image/about.jpg" alt="">
+        </div>
+        <div class="abo">
+            <h1>ABOUT US</h1>
+            <p>
+                There are several types of tea leaf diseases that can affect tea plants, including blister blight, grey blight, red rust, brown blight, and pink disease.
+                Blister blight is one of the most common tea leaf diseases, and it is caused by the fungus Exobasidium vexans. This disease affects the leaves of the tea plant, causing them to form blisters and eventually turn brown and die.
+                Grey blight, also known as Ascochyta blight, is caused by the fungus Ascochyta species. It affects the tea plant's stems, causing them to turn brown and develop lesions.
+                Red rust is caused by the fungus Cephaleuros virescens and appears as red spots on the leaves of the tea plant.
+                Brown blight, caused by the fungus Pestalotiopsis species, affects the tea plant's leaves and can cause them to become brown and brittle.
+                Pink disease, caused by the bacterium Acetobacter species, can affect the bark and wood of the tea plant, causing it to decay.
+            </p>
+        <a href="{{ url_for('about') }}">Read More</a>
+        </div>
+    </section>
+
+
+
+    <div id="discribe">
+        <div class="reach-at">
+            <h3>Reach At...</h3>
+            <p><i class='bx bx-current-location'></i>Madurai</p>
+            <p><i class='bx bxs-phone-call'></i>Call : 9384902204</p>
+            <p><i class='bx bxl-gmail'></i>arjunvailuv16@gmail.com</p>
+        </div>
+        <div class="info">
+            <h3>About</h3>
+            <p>
+                Agcultural systems are under
+                greater pressure then ever. but 
+                along with its other uses, the 
+                potential of AI to provide much-
+                needed relief to over worked 
+                farmers can streamline the triage
+                process...
+            </p>
+        </div>
+        <div class="link">
+            <h3>Links</h3>
+            <a href="{{ url_for('index') }}"><i class='bx bxs-home'></i>HOME</a>
+            <a href="{{ url_for('about') }}"><i class='bx bxs-store-alt'></i>ABOUT</a>
+            <a href="{{ url_for('teahome') }}"><i class='bx bxs-leaf'></i>TEA</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 2000);
+    </script>
+</body>
+</html>
